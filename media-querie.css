@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+/* Typical Device Breackpoints
+
+Mobile: até 600px
+Tablet: de 600px até 768px
+Desktop: de 992px até 1200px
+
+*/
+
+@media screen and (max-width: 600px) {
+    /*Mobile*/
+
+    #myH1{
+        font-size: 2rem;
+    }
+
+    #container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border: 5px solid;
+        padding: 30px;
+        border-radius: 20px;
+        font-family: monospace;
+        background-color: white;
+    }
+
+    #display{
+        font-size: 2.5rem;
+    }
+
+    #controls button{
+        font-size: 1.2rem;
+        min-width: 10px;
+    }
+
+}
